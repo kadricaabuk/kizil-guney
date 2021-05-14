@@ -1,0 +1,125 @@
+.background-1{
+    background: url("../../../assets/backgrounds/1.png") no-repeat center center, linear-gradient(180deg, rgba(255,255,255,.8) 25%, rgba(255,255,255,0) 50%, rgba(255,255,255,1) 100%,);
+    background-blend-mode: screen;
+    height: 100vh;
+}
+
+#section2{
+    .row{
+        height: 50vh;
+    }
+    
+    .col{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        .section2_title{
+            width: 100%;
+            font-family: "Jenna Sue";
+            font-size: 74px;
+        }
+
+        .section2_p{
+            padding-right: 40%;
+            font-family: "Made Tommy";
+            font-size: 26px;
+        }
+    }
+    
+}
+
+#section3{
+    background-image: url(../../../assets/backgrounds/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    .row>.col{
+        padding-top: 10em;
+        padding-left: 15em;
+        color: white;
+        .section3_title{
+            font-family: "Jenna Sue";
+            font-size: 74px;
+        }
+        .section3_p{
+            font-family: "Made Tommy";
+            font-size: 30px;
+        }
+        .section3_button{
+            border: 3px solid #4E6127;
+            background-color: transparent;
+            color: #4E6127;
+            font-weight: 600;
+            
+            padding-left: 1em;
+            padding-right: 1em;
+            padding-top: .5em;
+            padding-bottom: .5em;
+            border-radius: 5em;
+            margin-top: 7em;
+        }
+    }
+    .row>.col+.col{
+        padding-left: 25em;
+        padding-top: 10em;
+    }
+    .row>.col+.col>img{
+        width: 300px;
+    }
+}
+#section4{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    .row>.col+.col{
+        background-color: #495C23;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 8em;
+        .section4_title{
+            font-family: "Jenna Sue";
+            font-size: 54px;
+            width: 100%;
+            color: white;
+        }
+        .section4_p{
+            font-family: "Made Tommy";
+            font-size: 17px;
+            color: white;
+        }
+        .section4_btn_container{
+        width: 100%;    
+            .section4_button{
+                border: 2px solid #fff;
+                background-color: transparent;
+                color: #fff;
+                font-weight: 600;
+                padding-left: 1em;
+                padding-right: 1em;
+                padding-top: .5em;
+                padding-bottom: .5em;
+                border-radius: 5em;  
+            }   
+        }
+    }
+}
+
+
+.section5_background{
+    background: url("../../../assets/backgrounds/section5_bacground.png") no-repeat center center, linear-gradient(180deg, rgba(255,255,255,1) 40%, rgba(255,255,255,0) 100%);
+    background-blend-mode: screen;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 12em;
+    padding-left: 8em;
+    padding-right: 36em;
+    .section5_text{
+        color: #40100E;
+        font-family: "Made Tommy";
+        font-size: 32px;
+    }
+}

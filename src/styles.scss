@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Made Tommy";
+    src: url(./assets/fonts/MadeTOMMY/MADE_TOMMY.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "Jenna Sue";
+    src: local("Jenna Sue"), url(./assets/fonts/JennaSue/JennaSue.ttf) format("truetype");
+}
